@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e35d5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.btn {
+    background-color: #DC281E ;
+    border-radius: 8px;
+    border: none;
+    margin: 1rem;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    transition: transform .8s;
+    
+}
+.btn:hover{   
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
